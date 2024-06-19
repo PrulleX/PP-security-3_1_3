@@ -14,8 +14,8 @@ import java.util.Set;
 
 @Component
 public class DbInit {
-    private UserService userService;
-    private RoleRepository roleRepository;
+    private final UserService userService;
+    private final RoleRepository roleRepository;
 
     @Autowired
     public DbInit(UserService userService, RoleRepository roleRepository) {
