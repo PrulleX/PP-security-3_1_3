@@ -6,7 +6,6 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 import ru.kata.spring.boot_security.demo.repository.UserRepository;
 
-import javax.validation.Valid;
 import java.security.Principal;
 
 @Controller
