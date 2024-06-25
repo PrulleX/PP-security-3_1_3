@@ -41,6 +41,7 @@ public class User implements UserDetails {
     private int age;
 
     @Column(name = "password")
+    @NotEmpty(message = "Поле с паролем не может быть пустым.")
     private String password;
 
     @ManyToMany

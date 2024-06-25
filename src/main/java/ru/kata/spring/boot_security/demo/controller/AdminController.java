@@ -29,7 +29,7 @@ public class AdminController {
     @GetMapping
     public String showAll(Model model) {
         model.addAttribute("users", userService.getAllUsers());
-        return "users/showAll";
+        return "users/user";
     }
 
     @GetMapping("/{id}")
